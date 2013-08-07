@@ -1,0 +1,21 @@
+#!/usr/bin
+
+# rm hello
+rm hello
+
+# rm hello
+rm hello
+rm hello
+
+# rm hello
+rm hello
+rm hello
+rm hello
+rm hello
+
+# rm hello
+rm hello
+rm hello
+
+
+
