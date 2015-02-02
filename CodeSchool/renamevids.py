@@ -26,7 +26,7 @@ def escapename(text):
     return text.replace('/','&').replace(':','-').replace('?','!').replace('<','(').replace('>',')').replace('*','^')
 
 names = jsonToTitles(namesjson)
-oldnames = [x for x in sorted(os.listdir('.')) if x not in set([".","..","names.json"])]
+oldnames = [x for x in sorted(os.listdir('.')) if x.endswith('.mp4')])]
 if len(names) != len(oldnames):
     print "[WARNING]: Unequal names list detected"
 
