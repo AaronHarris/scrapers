@@ -1,1 +1,5 @@
-javascript:(function (){var saveAs=document.createElement('script');saveAs.setAttribute('src','https://raw.githubusercontent.com/eligrey/FileSaver.js/master/FileSaver.min.js');document.body.appendChild(saveAs);var jsCode=document.createElement('script');jsCode.setAttribute('src','https://dl.dropboxusercontent.com/u/16624233/JS/scrapeISSsrc.js');document.body.appendChild(jsCode);}());
+getLevelJSON hardcoded (no JQuery)
+
+javascript:(function(){function callback(){leveljson = $('.level').map(function(){var $this = $(this);var name = $this.find('p.level-title').text().trim();var sublevels = $this.find('li .tct').map(function(){return $(this).text().trim();}).get();var obj = {};obj.title = name;obj.sublevels = sublevels;return obj;}).get();var blob = new Blob([leveljson], {type: "application/json;charset=utf-8"});saveAs(blob, "names.json")}var s=document.createElement("script");s.src="https://rawgit.com/eligrey/FileSaver.js/master/FileSaver.min.js";if(s.addEventListener){s.addEventListener("load",callback,false)}else if(s.readyState){s.onreadystatechange=callback}document.body.appendChild(s);})()
+
+Created with http://mrcoles.com/bookmarklet/

@@ -1,25 +1,34 @@
-(function(){
-
+/*global saveAs, self*/
+(function(view){
     var getLevelJSON = function() {
         return $('.level').map(function(){
             var $this = $(this);
-            var name = $this.find('p.level-title').text().trim();
-            var sublevels = $this.find('li .tct').map(function(){
+            var obj = {};
+            obj.title = $this.find('p.level-title').text().trim();
+            obj.sublevels = $this.find('li .tct').map(function(){
                 return $(this).text().trim();
             }).get();
-            var obj = {};
-            obj.title = name;
-            obj.sublevels = sublevels;
+            obj.urls = $('source[data-quality="hd"]').map(function(){return $(this).attr('src');}).get();
             return obj;
         }).get();
     };
+    var getResources = function(){
+        return $('ul .list-item').map(function(){
+            var $this = $(this);
+            var obj = {};
+            obj.title = $this.text().trim();
+            obj.url = $this.find('a').attr('href');
+            return obj;
+        }).get();
+    }
 
     leveljson = getLevelJSON();
-    var blob = new Blob([leveljson], {type: "application/json;charset=utf-8"});
+    var blob = new Blob([JSON.stringify(leveljson)], {type: "application/json;charset=utf-8"});
     saveAs(blob, "names.json");
 
 })();
 /*
+$.map($('.course-title-link'), function(e){ console.log($(e).attr('href') + "\t" + $(e).text()) });
 [
   {
     "title": "1 - The Sword of Syntax",
