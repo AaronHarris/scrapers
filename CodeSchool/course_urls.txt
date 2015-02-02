@@ -1,0 +1,50 @@
+http://codeschool.com/courses/blasting-off-with-bootstrap/videos	Blasting Off with Bootstrap
+http://codeschool.com/courses/building-blocks-of-express-js/videos	Building Blocks of Express.js
+http://campus.codeschool.com/courses/building-blocks-of-express-js/contents
+http://codeschool.com/courses/front-end-foundations/videos	Front-end Foundations
+http://codeschool.com/courses/mastering-github/videos	Mastering GitHub
+http://codeschool.com/courses/javascript-best-practices/videos	JavaScript Best Practices
+--
+http://codeschool.com/courses/surviving-apis-with-rails/videos	Surviving APIs with Rails
+http://codeschool.com/courses/warming-up-with-ember-js/videos	Warming Up With Ember.js
+http://codeschool.com/courses/javascript-road-trip-part-3/videos	JavaScript Road Trip Part 3
+http://codeschool.com/courses/front-end-formations/videos	Front-end Formations
+http://codeschool.com/courses/core-ios-7/videos	Core iOS 7
+http://codeschool.com/courses/javascript-road-trip-part-2/videos	JavaScript Road Trip Part 2
+http://codeschool.com/courses/rails-4-patterns/videos	Rails 4 Patterns
+http://codeschool.com/courses/fundamentals-of-design/videos	Fundamentals of Design
+http://codeschool.com/courses/jquery-the-return-flight/videos	jQuery: The Return Flight
+http://codeschool.com/courses/ios-operation-mapkit/videos	iOS Operation: MapKit
+http://codeschool.com/courses/ios-operation-models/videos	iOS Operation: Models
+http://codeschool.com/courses/git-real-2/videos	Git Real 2
+http://codeschool.com/courses/rails-4-zombie-outlaws/videos	Rails 4: Zombie Outlaws
+http://codeschool.com/courses/anatomy-of-backbone-js-part-2/videos	Anatomy of Backbone.js Part 2
+http://codeschool.com/courses/assembling-sass-part-2/videos	Assembling Sass Part 2
+http://codeschool.com/courses/try-ios/videos	Try iOS
+--
+http://codeschool.com/courses/ruby-bits-part-2/videos	Ruby Bits Part 2
+http://codeschool.com/courses/assembling-sass/videos	Assembling Sass
+http://codeschool.com/courses/ruby-bits/videos	Ruby Bits
+http://codeschool.com/courses/git-real/videos	Git Real
+http://codeschool.com/courses/testing-with-rspec/videos	Testing with RSpec
+http://codeschool.com/courses/real-time-web-with-node-js/videos	Real-time Web with Node.js
+http://codeschool.com/courses/anatomy-of-backbone-js/videos	Anatomy of Backbone.js
+http://codeschool.com/courses/journey-into-mobile/videos	Journey Into Mobile
+http://codeschool.com/courses/rails-testing-for-zombies/videos	Rails Testing for Zombies
+http://codeschool.com/courses/coffeescript/videos	CoffeeScript
+http://codeschool.com/courses/rails-for-zombies-2/videos	Rails for Zombies 2
+
+free:
+https://codeschool.com/courses/shaping-up-with-angular-js/videos	Shaping up with Angular.js
+https://codeschool.com/courses/exploring-google-maps-for-ios/videos	Exploring Google Maps for iOS
+https://codeschool.com/courses/discover-drive/videos	Discover Drive
+https://codeschool.com/courses/javascript-road-trip-part-1/videos	JavaScript Road Trip Part 1
+https://codeschool.com/courses/try-objective-c/videos	Try Objective-C
+https://codeschool.com/courses/discover-devtools/videos	Discover DevTools
+https://codeschool.com/courses/try-jquery/videos	Try jQuery
+https://codeschool.com/courses/try-r/videos	Try R
+https://codeschool.com/courses/try-git/videos	Try Git
+https://codeschool.com/courses/try-ruby/videos	Try Ruby
+https://codeschool.com/courses/rails-for-zombies-redux/videos	Rails for Zombies Redux
+
+itpc://www.codeschool.com/code_tv/podcast.xml?token=b1e8381566bcb669cd12383dabc5e58c
